@@ -2,15 +2,15 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-01T13:19:25Z" name="Surefire suite" finished-at="2024-03-01T13:19:37Z" duration-ms="12166">
+  <suite started-at="2025-01-19T19:21:57Z" name="Surefire suite" finished-at="2025-01-19T19:22:06Z" duration-ms="9218">
     <groups>
     </groups>
-    <test started-at="2024-03-01T13:19:25Z" name="Surefire test" finished-at="2024-03-01T13:19:37Z" duration-ms="12166">
+    <test started-at="2025-01-19T19:21:57Z" name="Surefire test" finished-at="2025-01-19T19:22:06Z" duration-ms="9218">
       <class name="Selleniun_start_projects.Selleniun_start_projects.AppTest">
-        <test-method signature="equilateralTriangle()[pri:0, instance:equilateralTriangle(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2024-03-01T15:19:25Z" name="equilateralTriangle" finished-at="2024-03-01T15:19:37Z" duration-ms="12000" status="PASS">
+        <test-method signature="Tests1()[pri:0, instance:Tests1(Selleniun_start_projects.Selleniun_start_projects.AppTest)]" started-at="2025-01-19T21:21:57Z" name="Tests1" finished-at="2025-01-19T21:22:06Z" duration-ms="9153" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- equilateralTriangle -->
+        </test-method> <!-- Tests1 -->
       </class> <!-- Selleniun_start_projects.Selleniun_start_projects.AppTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
