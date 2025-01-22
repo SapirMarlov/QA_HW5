@@ -49,7 +49,6 @@ public class AppTestQ2 {
             {"Password is invalid", "A@1"},         // Too short
             {"Password is invalid", "AaBbCcDdEe"},  // Missing special character and digits
             {"Password is invalid", "Valid@ 123"}   // Invalid: contains space in special position
-           
         };
 
         for (Object[] testCase : testCases) {
