@@ -45,10 +45,10 @@ public class traingle_test {
         Object[][] testCases = {
             {"Not a triangle", 2, 3, 6},   // Not a triangle
             {"Not a triangle", 0, 1, 1},   // Zero-length side
-            {"Not a triangle", 5, 1, 1},   // One side too long
+            {"Not a triangle", 1, 1, 5},   // Not a triangle
             {"equilateral", 7, 7, 7},      // All sides equal
             {"isosceles", 5, 5, 3},        // Two sides equal
-            {"isosceles", 10, 10, 15},     // Two sides equal, longer third side
+            {"isosceles", 10, 15, 10},     // Two sides equal, longer third side
             {"scalene", 8, 10, 12},        // All sides different
             {"scalene", 7, 24, 25}         // Pythagorean triple (right-angled)
         };
