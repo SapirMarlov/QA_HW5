@@ -40,15 +40,15 @@ public class AppTestQ2 {
         // Updated table of test cases with positive and negative examples
         Object[][] testCases = {
             {"Password is invalid", "Ab1!"},    // Too short
-            {"Password is valid", "*********"},    // 9 * in password
+            {"Password is valid", "*******"},    // 7 * in password
             {"Password is valid", "A1b2C3d"},      // Valid: diverse characters
-            {"Password is invalid", "1234567"},     // Only digits
+            {"Password is valid", "1234567"},     // Only digits
             {"Password is invalid", "@#$%^&*"},     // Only special characters
-            {"Password is valid", "abcdefg!"},      // Valid: lowercase with special character
+            {"Password is valid", "abcdefg"},      // Valid: lowercase           
             {"Password is invalid", ""},            // Empty password
-            {"Password is invalid", "A@1"},         // Too short
-            {"Password is invalid", "AaBbCcDdEe"},  // Missing special character and digits
-            {"Password is invalid", "Valid@ 123"}   // Invalid: contains space in special position
+            {"Password is valid", "ABCDEFG"},         // Valid: Uppercase
+            {"Password is invalid", "AaBbCcDdEe"},  // too long
+            {"Password is invalid", "Valid* 123"}   // Invalid: contains space in special position
         };
 
         for (Object[] testCase : testCases) {

@@ -41,16 +41,17 @@ public class traingle_test {
 
     @Test
     public void testTriangleClassificationOnWebsite() {
-        // Updated test cases array without IDs
+    
         Object[][] testCases = {
-            {"Not a triangle", 2, 3, 6},   // Not a triangle
-            {"Not a triangle", 0, 1, 1},   // Zero-length side
-            {"Not a triangle", 1, 1, 5},   // Not a triangle
-            {"equilateral", 7, 7, 7},      // All sides equal
-            {"isosceles", 5, 5, 3},        // Two sides equal
-            {"isosceles", 10, 15, 10},     // Two sides equal, longer third side
-            {"scalene", 8, 10, 12},        // All sides different
-            {"scalene", 7, 24, 25}         // Pythagorean triple (right-angled)
+            {"Not a triangle", 2, 3, 6},   
+            {"Not a triangle", 1, 1, 0},   
+            {"Not a triangle", 1, 1, 5},   
+            {"equilateral", 7, 7, 7},      
+            {"isosceles", 5, 5, 3},        
+            {"isosceles", 10, 15, 10},    
+            {"isosceles", 6, 8, 8},			
+            {"scalene", 8, 10, 12},        
+            {"scalene", 7, 24, 25}         
         };
 
         for (Object[] testCase : testCases) {
